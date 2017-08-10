@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043451A01F3AA95E005001CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0434519F1F3AA95E005001CE /* main.m */; };
+		043451A31F3AA95E005001CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043451A21F3AA95E005001CE /* AppDelegate.m */; };
+		043451A61F3AA95E005001CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043451A51F3AA95E005001CE /* ViewController.m */; };
+		043451A91F3AA95E005001CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043451A71F3AA95E005001CE /* Main.storyboard */; };
+		043451AB1F3AA95E005001CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043451AA1F3AA95E005001CE /* Assets.xcassets */; };
+		043451AE1F3AA95E005001CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043451AC1F3AA95E005001CE /* LaunchScreen.storyboard */; };
+		043451B71F3AB3C0005001CE /* HybridURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 043451B61F3AB3C0005001CE /* HybridURLProtocol.m */; };
+		043451BC1F3AC585005001CE /* KJHybridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043451BB1F3AC585005001CE /* KJHybridViewController.m */; };
+		043451BF1F3AC6FB005001CE /* KJHybridContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043451BE1F3AC6FB005001CE /* KJHybridContentView.m */; };
+		043451C21F3AE2DC005001CE /* KJHybridTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 043451C11F3AE2DC005001CE /* KJHybridTools.m */; };
+		043451C51F3AE5B2005001CE /* KJHybridModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 043451C41F3AE5B2005001CE /* KJHybridModel.m */; };
+		043451CC1F3AEADB005001CE /* KJExtentsion.m in Sources */ = {isa = PBXBuildFile; fileRef = 043451CB1F3AEADB005001CE /* KJExtentsion.m */; };
+		C3B306251C9AF068661F805E /* libPods-liantiao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FCEC34A9438A68559106CB /* libPods-liantiao.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0434519B1F3AA95D005001CE /* liantiao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liantiao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0434519F1F3AA95E005001CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		043451A11F3AA95E005001CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		043451A21F3AA95E005001CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		043451A41F3AA95E005001CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		043451A51F3AA95E005001CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		043451A81F3AA95E005001CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043451AA1F3AA95E005001CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043451AD1F3AA95E005001CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		043451AF1F3AA95E005001CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043451B51F3AB3C0005001CE /* HybridURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HybridURLProtocol.h; sourceTree = "<group>"; };
+		043451B61F3AB3C0005001CE /* HybridURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HybridURLProtocol.m; sourceTree = "<group>"; };
+		043451BA1F3AC585005001CE /* KJHybridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJHybridViewController.h; sourceTree = "<group>"; };
+		043451BB1F3AC585005001CE /* KJHybridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJHybridViewController.m; sourceTree = "<group>"; };
+		043451BD1F3AC6FB005001CE /* KJHybridContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJHybridContentView.h; sourceTree = "<group>"; };
+		043451BE1F3AC6FB005001CE /* KJHybridContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJHybridContentView.m; sourceTree = "<group>"; };
+		043451C01F3AE2DC005001CE /* KJHybridTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJHybridTools.h; sourceTree = "<group>"; };
+		043451C11F3AE2DC005001CE /* KJHybridTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJHybridTools.m; sourceTree = "<group>"; };
+		043451C31F3AE5B2005001CE /* KJHybridModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJHybridModel.h; sourceTree = "<group>"; };
+		043451C41F3AE5B2005001CE /* KJHybridModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJHybridModel.m; sourceTree = "<group>"; };
+		043451CA1F3AEADB005001CE /* KJExtentsion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJExtentsion.h; sourceTree = "<group>"; };
+		043451CB1F3AEADB005001CE /* KJExtentsion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJExtentsion.m; sourceTree = "<group>"; };
+		043451D01F3C1102005001CE /* KJHybridHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJHybridHeader.h; sourceTree = "<group>"; };
+		A26A35B93931F70E1BFA000B /* Pods-liantiao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liantiao.release.xcconfig"; path = "Pods/Target Support Files/Pods-liantiao/Pods-liantiao.release.xcconfig"; sourceTree = "<group>"; };
+		D3FCEC34A9438A68559106CB /* libPods-liantiao.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-liantiao.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBFDAE2085BD0B5959C9944 /* Pods-liantiao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liantiao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liantiao/Pods-liantiao.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043451981F3AA95D005001CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B306251C9AF068661F805E /* libPods-liantiao.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043451921F3AA95D005001CE = {
+			isa = PBXGroup;
+			children = (
+				0434519D1F3AA95D005001CE /* liantiao */,
+				0434519C1F3AA95D005001CE /* Products */,
+				EFB672B40D9B5149C37C9159 /* Pods */,
+				F1EC66AC500D94AE4D13F357 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0434519C1F3AA95D005001CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0434519B1F3AA95D005001CE /* liantiao.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0434519D1F3AA95D005001CE /* liantiao */ = {
+			isa = PBXGroup;
+			children = (
+				043451B91F3AC57B005001CE /* KJHybrid */,
+				043451A11F3AA95E005001CE /* AppDelegate.h */,
+				043451A21F3AA95E005001CE /* AppDelegate.m */,
+				043451A41F3AA95E005001CE /* ViewController.h */,
+				043451A51F3AA95E005001CE /* ViewController.m */,
+				043451B51F3AB3C0005001CE /* HybridURLProtocol.h */,
+				043451B61F3AB3C0005001CE /* HybridURLProtocol.m */,
+				043451A71F3AA95E005001CE /* Main.storyboard */,
+				043451AA1F3AA95E005001CE /* Assets.xcassets */,
+				043451AC1F3AA95E005001CE /* LaunchScreen.storyboard */,
+				043451AF1F3AA95E005001CE /* Info.plist */,
+				0434519E1F3AA95D005001CE /* Supporting Files */,
+			);
+			path = liantiao;
+			sourceTree = "<group>";
+		};
+		0434519E1F3AA95D005001CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0434519F1F3AA95E005001CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		043451B91F3AC57B005001CE /* KJHybrid */ = {
+			isa = PBXGroup;
+			children = (
+				043451D01F3C1102005001CE /* KJHybridHeader.h */,
+				043451C91F3AEA19005001CE /* KJExtension */,
+				043451BA1F3AC585005001CE /* KJHybridViewController.h */,
+				043451BB1F3AC585005001CE /* KJHybridViewController.m */,
+				043451BD1F3AC6FB005001CE /* KJHybridContentView.h */,
+				043451BE1F3AC6FB005001CE /* KJHybridContentView.m */,
+				043451C01F3AE2DC005001CE /* KJHybridTools.h */,
+				043451C11F3AE2DC005001CE /* KJHybridTools.m */,
+				043451C31F3AE5B2005001CE /* KJHybridModel.h */,
+				043451C41F3AE5B2005001CE /* KJHybridModel.m */,
+			);
+			path = KJHybrid;
+			sourceTree = "<group>";
+		};
+		043451C91F3AEA19005001CE /* KJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				043451CA1F3AEADB005001CE /* KJExtentsion.h */,
+				043451CB1F3AEADB005001CE /* KJExtentsion.m */,
+			);
+			path = KJExtension;
+			sourceTree = "<group>";
+		};
+		EFB672B40D9B5149C37C9159 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBBFDAE2085BD0B5959C9944 /* Pods-liantiao.debug.xcconfig */,
+				A26A35B93931F70E1BFA000B /* Pods-liantiao.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1EC66AC500D94AE4D13F357 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3FCEC34A9438A68559106CB /* libPods-liantiao.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0434519A1F3AA95D005001CE /* liantiao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043451B21F3AA95E005001CE /* Build configuration list for PBXNativeTarget "liantiao" */;
+			buildPhases = (
+				ACF39C7A071BDC3F0A799DFA /* [CP] Check Pods Manifest.lock */,
+				043451971F3AA95D005001CE /* Sources */,
+				043451981F3AA95D005001CE /* Frameworks */,
+				043451991F3AA95D005001CE /* Resources */,
+				87D5EA648D2EB40D93B4684F /* [CP] Embed Pods Frameworks */,
+				AC8D489A3244A6922C033745 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = liantiao;
+			productName = liantiao;
+			productReference = 0434519B1F3AA95D005001CE /* liantiao.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043451931F3AA95D005001CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = jack;
+				TargetAttributes = {
+					0434519A1F3AA95D005001CE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6RLXJ4BW82;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 043451961F3AA95D005001CE /* Build configuration list for PBXProject "liantiao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043451921F3AA95D005001CE;
+			productRefGroup = 0434519C1F3AA95D005001CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0434519A1F3AA95D005001CE /* liantiao */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043451991F3AA95D005001CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043451AE1F3AA95E005001CE /* LaunchScreen.storyboard in Resources */,
+				043451AB1F3AA95E005001CE /* Assets.xcassets in Resources */,
+				043451A91F3AA95E005001CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87D5EA648D2EB40D93B4684F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liantiao/Pods-liantiao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC8D489A3244A6922C033745 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liantiao/Pods-liantiao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACF39C7A071BDC3F0A799DFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043451971F3AA95D005001CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043451BC1F3AC585005001CE /* KJHybridViewController.m in Sources */,
+				043451BF1F3AC6FB005001CE /* KJHybridContentView.m in Sources */,
+				043451CC1F3AEADB005001CE /* KJExtentsion.m in Sources */,
+				043451C51F3AE5B2005001CE /* KJHybridModel.m in Sources */,
+				043451A61F3AA95E005001CE /* ViewController.m in Sources */,
+				043451B71F3AB3C0005001CE /* HybridURLProtocol.m in Sources */,
+				043451A31F3AA95E005001CE /* AppDelegate.m in Sources */,
+				043451C21F3AE2DC005001CE /* KJHybridTools.m in Sources */,
+				043451A01F3AA95E005001CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		043451A71F3AA95E005001CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043451A81F3AA95E005001CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043451AC1F3AA95E005001CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043451AD1F3AA95E005001CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043451B01F3AA95E005001CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		043451B11F3AA95E005001CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043451B31F3AA95E005001CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBBFDAE2085BD0B5959C9944 /* Pods-liantiao.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6RLXJ4BW82;
+				INFOPLIST_FILE = liantiao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.liantiao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "liantiao/KJHybrid/liantiao-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		043451B41F3AA95E005001CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A26A35B93931F70E1BFA000B /* Pods-liantiao.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6RLXJ4BW82;
+				INFOPLIST_FILE = liantiao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.liantiao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "liantiao/KJHybrid/liantiao-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043451961F3AA95D005001CE /* Build configuration list for PBXProject "liantiao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043451B01F3AA95E005001CE /* Debug */,
+				043451B11F3AA95E005001CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043451B21F3AA95E005001CE /* Build configuration list for PBXNativeTarget "liantiao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043451B31F3AA95E005001CE /* Debug */,
+				043451B41F3AA95E005001CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043451931F3AA95D005001CE /* Project object */;
+}

@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+
+
+target 'liantiao' do
+#    
+#    pod 'AFNetworking'
+#    pod 'MJExtension'
+#    pod 'MJRefresh'
+#    pod 'Masonry'
+#    pod 'SDWebImage'
+     pod 'MBProgressHUD'
+#    pod 'IQKeyboardManager'
+#    pod 'TZImagePickerController'
+#    pod 'UMengAnalytics-NO-IDFA'
+#    pod 'SDCycleScrollView'
+#    pod 'JPush'
+#    pod 'GTMBase64'
+end
+
