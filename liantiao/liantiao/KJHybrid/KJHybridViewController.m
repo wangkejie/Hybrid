@@ -16,7 +16,6 @@
 @interface KJHybridViewController ()
 
 @property (nonatomic, copy) NSString * URLPath;
-@property (nonatomic, copy) NSString * Cookie;
 
 @property (nonatomic, copy) NSString * onShowCallBack;
 @property (nonatomic, copy) NSString * onHideCallBack;
@@ -41,7 +40,6 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     self.URLPath = @"http://10.144.104.210:3000/index1.html?";
-
 }
 
 + (instancetype)load:(NSString *)urlString sess:(NSString *)sess {
@@ -88,7 +86,8 @@
     
     NSURLRequest * request = [self getRequest:self.URLPath];
     
-    
+    self.contentView.Cookie = @"lvkazhuda";
+
     
     [self.contentView loadRequest:request ];
     

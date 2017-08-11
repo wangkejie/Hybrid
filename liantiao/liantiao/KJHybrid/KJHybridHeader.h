@@ -11,6 +11,7 @@
 
 
 #import <MBProgressHUD.h>
-
+#import <AFNetworking.h>
+#import "KJNetworkManage.h"
 
 #endif /* KJHybridHeader_h */

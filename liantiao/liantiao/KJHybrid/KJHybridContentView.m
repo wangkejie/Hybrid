@@ -20,6 +20,19 @@
 
 - (void)setCookie:(NSString *)Cookie {
    
+    NSMutableDictionary *cookieProperties = [NSMutableDictionary dictionary];
+    [cookieProperties setObject:Cookie forKey:NSHTTPCookieValue];
+    [cookieProperties setObject:@"cookie_user" forKey:NSHTTPCookieName];
+    [cookieProperties setObject:@"cn.showmac" forKey:NSHTTPCookieDomain];
+    [cookieProperties setObject:@"/" forKey:NSHTTPCookiePath];
+    [cookieProperties setObject:@"1" forKey:NSHTTPCookieVersion];
+    [cookieProperties setObject:[[NSDate date] dateByAddingTimeInterval:2629743] forKey:NSHTTPCookieExpires];
+    
+    NSHTTPCookie *cookieuser = [NSHTTPCookie cookieWithProperties:cookieProperties];
+    [[NSHTTPCookieStorage sharedHTTPCookieStorage] setCookie:cookieuser];
+    [[NSHTTPCookieStorage sharedHTTPCookieStorage] setCookieAcceptPolicy:NSHTTPCookieAcceptPolicyAlways];
+
+    
 }
 
 - (instancetype)initWithFrame:(CGRect)frame
@@ -47,7 +60,8 @@
 
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
     
-    
+    NSLog(@"%@",[NSHTTPCookieStorage sharedHTTPCookieStorage].cookies);
+
     if ([request.URL.scheme isEqualToString:@"lvka"]) {
         
         [self.tool analysis:request.URL.absoluteString webView:webView appendParams:nil];
@@ -66,6 +80,8 @@
         [webView stringByEvaluatingJavaScriptFromString:[NSString stringWithFormat:@"document.body.innerHTML = document.body.innerHTML%@",htmlString]];
         self.htmlString = nil;
     }
+    
+    
     
 }
 
