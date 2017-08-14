@@ -13,13 +13,13 @@
 		043451A91F3AA95E005001CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043451A71F3AA95E005001CE /* Main.storyboard */; };
 		043451AB1F3AA95E005001CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043451AA1F3AA95E005001CE /* Assets.xcassets */; };
 		043451AE1F3AA95E005001CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043451AC1F3AA95E005001CE /* LaunchScreen.storyboard */; };
-		043451B71F3AB3C0005001CE /* HybridURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 043451B61F3AB3C0005001CE /* HybridURLProtocol.m */; };
 		043451BC1F3AC585005001CE /* KJHybridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043451BB1F3AC585005001CE /* KJHybridViewController.m */; };
 		043451BF1F3AC6FB005001CE /* KJHybridContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043451BE1F3AC6FB005001CE /* KJHybridContentView.m */; };
 		043451C21F3AE2DC005001CE /* KJHybridTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 043451C11F3AE2DC005001CE /* KJHybridTools.m */; };
 		043451C51F3AE5B2005001CE /* KJHybridModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 043451C41F3AE5B2005001CE /* KJHybridModel.m */; };
 		043451CC1F3AEADB005001CE /* KJExtentsion.m in Sources */ = {isa = PBXBuildFile; fileRef = 043451CB1F3AEADB005001CE /* KJExtentsion.m */; };
 		0488598B1F3C597E00B8E2E7 /* KJNetworkManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0488598A1F3C597E00B8E2E7 /* KJNetworkManage.m */; };
+		048859921F3D8BDC00B8E2E7 /* HybridURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 048859911F3D8BDC00B8E2E7 /* HybridURLProtocol.m */; };
 		C3B306251C9AF068661F805E /* libPods-liantiao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FCEC34A9438A68559106CB /* libPods-liantiao.a */; };
 /* End PBXBuildFile section */
 
@@ -34,8 +34,6 @@
 		043451AA1F3AA95E005001CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043451AD1F3AA95E005001CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		043451AF1F3AA95E005001CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		043451B51F3AB3C0005001CE /* HybridURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HybridURLProtocol.h; sourceTree = "<group>"; };
-		043451B61F3AB3C0005001CE /* HybridURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HybridURLProtocol.m; sourceTree = "<group>"; };
 		043451BA1F3AC585005001CE /* KJHybridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJHybridViewController.h; sourceTree = "<group>"; };
 		043451BB1F3AC585005001CE /* KJHybridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJHybridViewController.m; sourceTree = "<group>"; };
 		043451BD1F3AC6FB005001CE /* KJHybridContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJHybridContentView.h; sourceTree = "<group>"; };
@@ -49,6 +47,8 @@
 		043451D01F3C1102005001CE /* KJHybridHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJHybridHeader.h; sourceTree = "<group>"; };
 		048859891F3C597E00B8E2E7 /* KJNetworkManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJNetworkManage.h; sourceTree = "<group>"; };
 		0488598A1F3C597E00B8E2E7 /* KJNetworkManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJNetworkManage.m; sourceTree = "<group>"; };
+		048859901F3D8BDC00B8E2E7 /* HybridURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HybridURLProtocol.h; sourceTree = "<group>"; };
+		048859911F3D8BDC00B8E2E7 /* HybridURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HybridURLProtocol.m; sourceTree = "<group>"; };
 		A26A35B93931F70E1BFA000B /* Pods-liantiao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liantiao.release.xcconfig"; path = "Pods/Target Support Files/Pods-liantiao/Pods-liantiao.release.xcconfig"; sourceTree = "<group>"; };
 		D3FCEC34A9438A68559106CB /* libPods-liantiao.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-liantiao.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBBFDAE2085BD0B5959C9944 /* Pods-liantiao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liantiao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liantiao/Pods-liantiao.debug.xcconfig"; sourceTree = "<group>"; };
@@ -92,8 +92,6 @@
 				043451A21F3AA95E005001CE /* AppDelegate.m */,
 				043451A41F3AA95E005001CE /* ViewController.h */,
 				043451A51F3AA95E005001CE /* ViewController.m */,
-				043451B51F3AB3C0005001CE /* HybridURLProtocol.h */,
-				043451B61F3AB3C0005001CE /* HybridURLProtocol.m */,
 				043451A71F3AA95E005001CE /* Main.storyboard */,
 				043451AA1F3AA95E005001CE /* Assets.xcassets */,
 				043451AC1F3AA95E005001CE /* LaunchScreen.storyboard */,
@@ -115,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				043451D01F3C1102005001CE /* KJHybridHeader.h */,
+				048859901F3D8BDC00B8E2E7 /* HybridURLProtocol.h */,
+				048859911F3D8BDC00B8E2E7 /* HybridURLProtocol.m */,
 				048859881F3C58E000B8E2E7 /* KJTools */,
 				043451C91F3AEA19005001CE /* KJExtension */,
 				043451BA1F3AC585005001CE /* KJHybridViewController.h */,
@@ -291,9 +291,9 @@
 				043451BC1F3AC585005001CE /* KJHybridViewController.m in Sources */,
 				043451BF1F3AC6FB005001CE /* KJHybridContentView.m in Sources */,
 				043451CC1F3AEADB005001CE /* KJExtentsion.m in Sources */,
+				048859921F3D8BDC00B8E2E7 /* HybridURLProtocol.m in Sources */,
 				043451C51F3AE5B2005001CE /* KJHybridModel.m in Sources */,
 				043451A61F3AA95E005001CE /* ViewController.m in Sources */,
-				043451B71F3AB3C0005001CE /* HybridURLProtocol.m in Sources */,
 				043451A31F3AA95E005001CE /* AppDelegate.m in Sources */,
 				043451C21F3AE2DC005001CE /* KJHybridTools.m in Sources */,
 				0488598B1F3C597E00B8E2E7 /* KJNetworkManage.m in Sources */,
